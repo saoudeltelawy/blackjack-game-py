@@ -17,8 +17,6 @@ cards = [
 player1_cards = random.sample(cards, 2)
 computer_cards = random.sample(cards, 2)
 
-player1_cards_total = 0
-computer_cards_total = 0
 print(f"player1_cards: {player1_cards}")
 
 player1_cards_total = sum(player1_cards)  # sum of player1_cards
