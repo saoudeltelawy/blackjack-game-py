@@ -15,6 +15,7 @@ A simple, text-based Python implementation of the Blackjack card game. Players c
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/simple-blackjack-game.git
+   ```bash
 
 2. Navigate to the project folder:
 ```bash
