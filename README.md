@@ -1,68 +1,64 @@
-Blackjack Game in Python (blackjack-game-py)
-This README.md file provides an overview of a basic Blackjack game implemented in Python.
+# Blackjack Game in Python (blackjack-game-py)
 
-What is it?
+## Overview
+This project provides a basic implementation of the Blackjack card game in Python. It’s a text-based experience where players compete against a dealer to get as close to 21 as possible without exceeding it. Perfect for beginners learning Python and game development concepts.
 
-This project offers a simple, text-based Blackjack experience where players compete against a dealer to get as close to 21 without exceeding it. It's perfect for beginners learning Python and game development concepts.
+---
 
-Features:
+## Features
+- Random card assignment for players and the dealer.
+- User input for "Hit" (take another card) or "Stand" (keep current total).
+- Automated dealer gameplay.
+- Win, lose, or draw conditions based on Blackjack rules.
 
-Randomly assigns cards
-User input for "Hit" or "Stand" actions
-Automated dealer gameplay
-Determines win, lose, or draw conditions
-How to Play:
+---
 
-Clone the Repository:
+## How to Play
 
-Bash
-
+### Clone the Repository
+```bash
 git clone https://github.com/<your-username>/simple-blackjack-game.git
-Navigate to the Project Folder:
 
-Bash
-
+### Navigate to the Project Folder
 cd simple-blackjack-game
-Run the Game:
 
-Bash
-
+### Run the Game
 python blackjack.py  # Assuming the main script is named blackjack.py
-This will start the Blackjack game allowing you to play against the dealer.
+This will start the Blackjack game, allowing you to play against the dealer.
 
-Example Output:
-
+### Example Output
 Your cards: [5, 10], current score: 15
 Dealer's first card: 8
 Type 'y' to get another card, type 'n' to pass: y
 Your cards: [5, 10, 3], current score: 18
 Dealer's cards: [8, 9], current score: 17
 You win!
-Game Rules:
-
-You vs. Dealer: Your goal is to have a higher score than the dealer without going over 21.
-Get Close to 21: Add the values of your cards to get as close as possible to 21.
-Number cards are worth their face value (e.g., 5 = 5 points).
-Face cards (Jack, Queen, King) are worth 10 points each.
-Aces can be worth 1 or 11 (choose whichever benefits you more).
-Your Turn:
-Start with 2 cards.
-Choose:
-Hit: Take another card.
-Stand: Keep your current total.
-Dealer's Turn:
-Dealer starts with 2 cards as well.
-Dealer must draw cards until they reach 17 or higher.
-Who Wins?:
-If your total is closer to 21 than the dealer's, you win.
-If you go over 21 (bust), you lose.
-If the dealer goes over 21, you win.
-If both scores are equal, it's a tie.
-Enjoy playing Blackjack!
 
 
+Game Rules
 
+Objective
+	•	Compete against the dealer to achieve a score closer to 21 without going over.
 
+Card Values
+	•	Number cards (2–10): Worth their face value (e.g., 5 = 5 points).
+	•	Face cards (Jack, Queen, King): Worth 10 points each.
+	•	Ace: Can be worth 1 or 11, whichever benefits you more.
 
+Gameplay
+	1.	Your Turn:
+	•	Start with 2 cards.
+	•	Choose:
+	•	Hit: Take another card.
+	•	Stand: Keep your current total.
+	2.	Dealer’s Turn:
+	•	The dealer starts with 2 cards.
+	•	The dealer must draw cards until their total is 17 or higher.
+	3.	Winning Conditions:
+	•	If your total is closer to 21 than the dealer’s, you win.
+	•	If your total exceeds 21, you lose (bust).
+	•	If the dealer exceeds 21, you win.
+	•	If both totals are equal, it’s a tie.
 
+Enjoy Playing Blackjack!
 
