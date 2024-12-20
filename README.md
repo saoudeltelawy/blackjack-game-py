@@ -1,7 +1,4 @@
-
-# Rewriting and saving the README.md file to provide a downloadable link again
-
-readme_content = """# Blackjack Game in Python (blackjack-game-py)
+# Blackjack Game in Python (blackjack-game-py)
 
 ## Overview
 This project provides a basic implementation of the Blackjack card game in Python. It’s a text-based experience where players compete against a dealer to get as close to 21 as possible without exceeding it. Perfect for beginners learning Python and game development concepts.
