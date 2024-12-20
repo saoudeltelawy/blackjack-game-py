@@ -80,5 +80,4 @@ Compete against the dealer to achieve a score closer to 21 without going over.
 ---
 
 ## Enjoy Playing Blackjack!
-Have fun testing your luck and strategy in this simplified version of Blackjack!
-"""
+
